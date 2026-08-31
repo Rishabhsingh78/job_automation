@@ -1,0 +1,7 @@
+venv/
+naukri-profile/
+__pycache__/
+*.log
+*.png
+.DS_Store
+automation_local.py
