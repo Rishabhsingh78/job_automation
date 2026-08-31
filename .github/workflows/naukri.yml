@@ -22,9 +22,6 @@ jobs:
           pip install -r requirements.txt
           playwright install --with-deps chromium
 
-      - name: Check files
+      - name: Test Naukri
         run: |
-          echo "Files:"
-          ls -lh
-          echo "Resume:"
-          ls -lh Rishabh_singh_Resume_.pdf
+          python test_naukri.py
